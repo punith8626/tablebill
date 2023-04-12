@@ -1,0 +1,47 @@
+body {
+  font-size: .875rem;
+  background-color: #EAEFF3;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  background-color:   #F6F7F9;
+box-shadow: none;
+padding-top: 20px;
+}
+
+
+.sidebar-sticky {
+  height: calc(100vh - 48px);
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.fs-8{
+  font-size: 1.5rem !important;
+}
+.sidebar .nav-item a, .sidebar .nav-item a:hover{
+  color: var(--bs-card-color);
+  font-size: 16px;
+  
+}
+.sidebar .nav-item a:hover{
+  color: #000;
+}
+.sidebar .nav-item:hover{
+  background-color: #fff;
+  border-radius: 10px;
+}
+.sidebar .nav-item a i{
+  margin-right: 10px;
+}
+header{
+  background-color:#EAEFF3 ;
+}
+.card-header i{
+  cursor: pointer;
+}
